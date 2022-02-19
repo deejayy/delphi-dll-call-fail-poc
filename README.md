@@ -8,7 +8,7 @@ Reproduction:
 
 Observation:
 
-Start the GUI application: it is capable to play the wave file regardless of how many times you click on the button.
+Start the GUI application: it is capable to play the wave file regardless of how many times you click on the button.  
 The console application can play the wave only once (press enter), then it fails:
 
 - without `sysutil` used: `Runtime Error 216`.
