@@ -1,0 +1,13 @@
+program DllCallFailPoC;
+
+uses
+  Forms,
+  TestWavePlay in 'TestWavePlay.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
