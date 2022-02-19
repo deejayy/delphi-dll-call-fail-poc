@@ -1,6 +1,6 @@
 library waveout;
 
-uses WaveMixStripped;
+uses Sharemem, WaveMixStripped;
 
 var MyWaveMix: TWaveMix;
     i: integer;

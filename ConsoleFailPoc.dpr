@@ -1,6 +1,6 @@
 {$APPTYPE CONSOLE}
 
-uses Sysutils;
+uses Sharemem, Sysutils;
 
 procedure InitWaveOut; cdecl; external 'waveout.dll';
 procedure DestroyWaveOut; cdecl; external 'waveout.dll';
